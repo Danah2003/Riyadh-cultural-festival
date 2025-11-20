@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Tickets</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+<header class="logo-container">
+    <div class="logo-circle"></div>
+    <div class="logo-text">Riyadh Cultural Festival</div>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="highlights.html">Highlights</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="performers.html">Performers</a>
+    <a href="tickets.html">Tickets</a>
+    <a href="map.html">Map</a>
+</nav>
+
+<form id="ticket-form" method="POST" action="submission-script-placeholder.php">
+    <h2>Book Your Tickets</h2>
+    <label>Name:</label>
+    <input type="text" required><br>
+
+    <label>Email:</label>
+    <input type="email" required><br>
+
+    <label>Number of Tickets:</label>
+    <input type="number" required><br>
+
+    <label>Phone:</label>
+    <input type="text" required><br>
+
+    <input type="submit" value="Submit Request">
+</form>
+<div id="thank-you-message" style="display: none; color: green; font-weight: bold; padding: 20px; border: 1px solid green;">
+    <p>🎉 Thank you for submitting your ticket request!</p>
+    <p>A confirmation email is on its way.</p>
+</div>
+
+<script>
+    // The script is now outside of any form tag, and targets the single valid form.
+    var formElement = document.getElementById('ticket-form');
+    var messageElement = document.getElementById('thank-you-message');
+
+    formElement.addEventListener('submit', function(event) {
+        
+        event.preventDefault(); // Stop the real form submission 
+        
+        formElement.style.display = 'none';  // Hide the form
+        
+        messageElement.style.display = 'block';  // Show the message
+        
+        window.scrollTo(0, 0);
+    });
+</script>
+
+</body>
+</html>
