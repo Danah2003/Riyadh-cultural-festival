@@ -1,0 +1,212 @@
+/* Global Page Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #f7ecdf, white);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #c2b6a4;
+}
+
+.logo {
+    width: 90px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #8b5e34;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 0 17px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Page Section */
+section {
+    padding: 20px;
+}
+
+/* Right-Aligned Text */
+.right {
+    text-align: right;
+}
+
+/* Rounded Images */
+.rounded {
+    border-radius: 15px;
+}
+
+/* Hover Zoom Image */
+.hover-img:hover {
+    transform: scale(1.15);
+    transition: 0.4s ease-in-out;
+}
+
+/* Table Style */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #4d4d4d;
+    padding: 12px;
+    text-align: center;
+    font-size: 17px;
+}
+
+th {
+    background-color: #8b5e34;
+    color: white;
+    font-weight: bold;
+}
+
+/* Form Style */
+form label {
+    font-weight: bold;
+}
+
+form input {
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    width: 50%;
+    border: 1px solid #8b5e34;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #8b5e34;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #704a29;
+}
+
+/* Footer (optional) */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+performer-img {
+    width: 220px;
+    height: 160px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+logo-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #8b5e34;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+logo-icon {
+  font-size: 32px;
+  color: #d4a373;
+
+.logo-text {
+    font-size: 26px;
+    font-weight: bold;
+    color: #4a2c2a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-icon {
+    font-size: 20px;
+    color: #8b5e34;
+}
+
+
+
+}
+
+/* ===== FESTIVAL LOGO STYLE ===== */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ====== CUSTOM LOGO FOR RIYADH CULTURAL FESTIVAL ====== */
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.logo-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #ff6b6b,
+        #ffcc5c,
+        #4ecdc4,
+        #1a535c,
+        #ff6b6b
+    );
+}
+
+.logo-text {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+    text-transform: uppercase;
+}
+
+.zoom-on-hover {
+  
+    width: 300px;
+    height: 200px;
+    
+       transition: transform 0.3s ease;
+}
+
+.zoom-on-hover:hover {
+       transform: scale(1.2);
+       z-index: 10; 
+    }
